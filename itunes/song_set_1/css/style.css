@@ -13,7 +13,7 @@ body {
 
 .songs {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 40px;
     padding: 100px;
