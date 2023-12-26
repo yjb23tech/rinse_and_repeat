@@ -5,14 +5,14 @@ const App = () => {
     return (
         <div className="songs">
             <Card 
-                song_cover_art=""
-                song_title=""
-                album_icon=""
-                album_title=""
-                artist_icon=""
-                artist_name=""
-                genre_icon=""
-                genre_name=""
+                song_cover_art="track_9_song_art.png"
+                song_title="Dark Fantasy"
+                album_icon="album_icon.png"
+                album_title="My Beautiful Dark Twisted Fantasy"
+                artist_icon="artist_icon.png"
+                artist_name="Kanye West"
+                genre_icon="genre_icon.png"
+                genre_name="Sophisticated Ignorance"
             />
         </div>
     )
