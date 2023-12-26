@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.songs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 100px;
+    border: 0px;
+    margin: 100px;
+}
+
+.row-song-card {
+    flex-basis: 250px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.row-song-card > img {
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.agg-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.agg-text > h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+
+}
+
+.info-group > img {
+    height: 12px;
+    margin-right: 8px;
+}
+
+.info-group > p {
+    font-size: 12px;
+}
