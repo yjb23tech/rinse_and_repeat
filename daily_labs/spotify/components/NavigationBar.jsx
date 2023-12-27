@@ -1,7 +1,7 @@
 const NavigationBar = () => {
     return (
         <nav className="universal-navi">
-            <h3>Anstrum Labs</h3>
+            <h3>ANSTRUM LABS</h3>
         </nav>
     )
 }
