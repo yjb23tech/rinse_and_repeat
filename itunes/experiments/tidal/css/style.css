@@ -14,8 +14,6 @@ body {
 .songs {
     display: flex;
     justify-content: flex-start;
-    align-self: center;
-    align-content: center;
     flex-wrap: wrap;
     gap: 40px;
     padding: 100px;
@@ -30,6 +28,7 @@ body {
     flex-direction: row;
     padding: 13px;
     padding-bottom: 20px;
+    justify-content: center;
     background-color: white;
 }
 
